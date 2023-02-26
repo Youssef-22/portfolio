@@ -1,0 +1,57 @@
+.about-card{
+    width: 440px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+}
+.about-card .up .rectangle{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    z-index: -1;
+}
+.about-card .up{
+    align-items: center;
+    position: relative;
+}
+.about-card .up h1{
+    white-space: nowrap;
+    font-family: 'Playfair Display',serif;
+}
+.about-card p{
+    font-family:'Playfair Display',serif ;
+    color: white;
+    max-width: 300px;
+    text-align: center;
+    margin-top: -70px;
+    margin-left: 70px;
+}
+@media screen and  (max-width:950px){
+.about-card{
+    flex-direction: row;
+    width: 100%;
+}
+.about-card .text-container{
+    height: 70px;
+}
+.about-card p{
+    margin-top:130px;
+}
+.about-card .up .rectangle{
+    width:70%;
+}
+}
+@media screen and  (max-width:700px){
+    .about-card{
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-card p{
+        max-width: 400px;
+        margin-top:-50px;
+        margin-right: 15%;
+    }
+    .about-card .up .rectangle{
+        width:100%;
+    }
+    }

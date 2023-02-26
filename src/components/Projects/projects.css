@@ -1,0 +1,78 @@
+.projects{
+    height: 100%; 
+}
+.projects .up{
+    flex-direction: column;
+    padding: 2rem 5rem;
+}
+.projects .up h2{
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display',serif;
+    font-size: 27px;
+}
+.projects .up span{
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.projects .up .line-container{
+    display: flex;
+    justify-content: center;
+}
+.projects .up .line{
+    width: 20%;
+}
+
+.projects .up p{
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display',serif;
+    font-size: 22 px;
+}
+.projects .down{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 13rem;
+    justify-content: center;
+}
+.projects .down .prj-card{
+    position: relative;
+}
+.projects .down p{
+    color: white;
+    position: absolute;
+    top:-10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 25px;
+    font-family: 'Playfair Display',serif;
+    display: none;
+    width: 100%;
+    
+}
+.projects .down img{
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+}
+.projects .down .prj-card:hover p{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    width: 100%;
+    padding: 1rem;
+    height: 167px;
+    width: 367px;
+    font-weight: bold;
+}
+.projects .down .prj-card a{
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width:600px){
+    .projects .down{
+        padding: 0 3rem;
+    }
+}

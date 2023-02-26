@@ -1,0 +1,21 @@
+.section__padding { 
+    padding: 4rem 6rem;
+  }
+  
+  .flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.bg__color{
+  background: linear-gradient(81.66deg ,#00B5EE 7.21%,#FF45A4 45.05%,#FFBA00 78.07%);
+}
+.bg__color2{
+  background: linear-gradient(90deg ,#24CBFF 14.53%,#FC59FF 69.36%,#FFBD0C 117.73%);
+}
+.font-open{
+  font-family: "Open Sans" , sans-serif;
+}
+.font-playfair{
+  font-family: "Playfair Display" , serif;
+}
