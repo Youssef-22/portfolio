@@ -42,7 +42,7 @@ function Home() {
         visible : {opacity:1,x:0}
       }}
       >
-       <a href='Youssefkharroubinelast.pdf' download="Youssef Kharroubine Cv.pdf"><button className='cv-btn bg__color2'>Download CV</button></a>
+       <a href='./Youssefkharroubinelast.pdf' download="Youssef Kharroubine Cv.pdf"><button className='cv-btn bg__color2'>Download CV</button></a>
         <button className='cntct-btn bg__color'><a href='#contact'>Contact Me</a></button>
       </motion.div>
       <motion.div
